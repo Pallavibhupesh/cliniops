@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+  <suite name="Suite" verbose="1" >
+  <test name="Test" >
+    <classes>
+       <class name="com.testing.Cliniops.Cliniops_DriverScriptTest" />
+    </classes>
+  </test>
+  </suite> 
+
+ <!--<suite name="Suite" parallel="tests">
+	  <test name="Test" allow-return-values="true">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testing.Cliniops.Cliniops_AutomationScriptsTest">
+				  <methods>
+					<include name="loginErrorMessage1"></include>
+					<include name="sucessFulLogin1"></include>
+					<include name="loginErrorMessage2"></include>
+					<include name="loginErrorMessage3"></include>
+					<include name="forgotPassword"></include> 
+					<include name ="auto_clini_login_001"></include>
+					<include name ="auto_clini_login_002"></include>
+				</methods>   
+			</class>
+		</classes>
+	</test> Test
+	 <test name="ChromeTest" allow-return-values="true">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.testing.Cliniops.Cliniops_AutomationScriptsTest">
+				 <methods>
+					 <include name ="auto_clini_login_001"></include>
+					<include name ="auto_clini_login_002"></include>
+				</methods> 
+			</class>
+		</classes>
+	</test>  
+	  <test name="IETest" allow-return-values="true">
+		<parameter name="browser" value="IE" />
+		<classes>
+			<class name="com.testing.Cliniops.Cliniops_AutomationScriptsTest">
+				 <methods>
+				   <include name ="auto_clini_login_001"></include>
+					<include name ="auto_clini_login_002"></include>
+				</methods> 
+			</class>
+		</classes> 
+	</test>   
+</suite>  -->

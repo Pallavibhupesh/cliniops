@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="25" failed="0" total="25" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="262" started-at="2017-09-08T00:44:58Z" finished-at="2017-09-08T00:44:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="262" started-at="2017-09-08T00:44:58Z" finished-at="2017-09-08T00:44:58Z">
+      <class name="com.testing.Cliniops.Cliniops_AutomationScriptsTest">
+        <test-method status="FAIL" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method selectBrowser but has not been marked @Optional or defined
+in C:\Users\Pallavi\AppData\Local\Temp\testng-eclipse--269026915\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method selectBrowser but has not been marked @Optional or defined
+in C:\Users\Pallavi\AppData\Local\Temp\testng-eclipse--269026915\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Confg_001()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Confg_001" duration-ms="7" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Confg_001 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Confg_002()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Confg_002" duration-ms="2" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Confg_002 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Confg_003()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Confg_003" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Confg_003 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Confg_004()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Confg_004" duration-ms="4" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Confg_004 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Confg_005()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Confg_005" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Confg_005 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Confg_007()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Confg_007" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Confg_007 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Confg_008()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Confg_008" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Confg_008 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Home_001()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Home_001" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Home_001 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Home_002()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Home_002" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Home_002 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Home_003()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Home_003" duration-ms="4" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Home_003 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Login_001()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Login_001" duration-ms="3" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Login_001 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Login_002()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Login_002" duration-ms="3" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Login_002 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Login_003()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Login_003" duration-ms="5" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Login_003 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Login_004()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Login_004" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Login_004 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Login_005()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Login_005" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Login_005 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_001()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_001" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_001 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_002()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_002" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_002 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_003()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_003" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_003 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_005()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_005" duration-ms="2" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_005 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_006()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_006" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_006 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_007()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_007" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_007 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_008()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_008" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_008 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_009()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_009" duration-ms="1" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_009 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_010()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_010" duration-ms="9" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_010 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="selectBrowser(java.lang.String)[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="selectBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="SKIP" signature="auto_Clini_Manage_011()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="auto_Clini_Manage_011" duration-ms="9" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_Clini_Manage_011 -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.testing.Cliniops.Cliniops_AutomationScriptsTest@61832929]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-09-07T17:44:58Z" finished-at="2017-09-07T17:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testing.Cliniops.Cliniops_AutomationScriptsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
